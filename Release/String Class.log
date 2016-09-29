@@ -1,0 +1,9 @@
+﻿  Main.cpp
+  String Class.cpp
+String Class.cpp(65): warning C4305: 'return': truncation from 'int' to 'bool'
+  Generating code
+c:\users\trent.butler\documents\github\stringclassassessment\string class.cpp(193): warning C4172: returning address of local variable or temporary: Test1
+  All 41 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  String Class.vcxproj -> C:\Users\trent.butler\Documents\GitHub\StringClassAssessment\Release\String Class.exe
+  String Class.vcxproj -> C:\Users\trent.butler\Documents\GitHub\StringClassAssessment\Release\String Class.pdb (Full PDB)

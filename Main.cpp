@@ -20,14 +20,21 @@ int main()
 	cout << "Second string entered has " << secondString.Length() << " characters... \n \n";
 	
 	
+	cout << "[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~] \n";
+	cout << "Returns 0 if strings are the same.... \n";
+	cout << "Returns 1 if the first string is first.... \n";
+	cout << "Returns -1 if the second string is first.... \n \n";
 	
-	firstString.Compare(secondString);
-	secondString.characterAtIndex(2);
-	firstString.characterAtIndex(2);
+	cout <<"Function returned "<< firstString.Compare(secondString) << "\n";
 
-	cout <<"Append ~~>> "<< firstString.Append(secondString) << " <<~~ Append" << "\n";
 
-	cout << "Prepend ~~>> " << secondString.Prepend(firstString) << " <<~~ Prepend" << "\n \n";
+
+	cout << "[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~] \n";
+	
+	cout<<"First string character found was "<<firstString.characterAtIndex(2)<<"\n \n";
+	cout << "Second string character found was " << secondString.characterAtIndex(2)<<"\n \n";
+
+	
 
 	cout << "lowercase ~~>> " << secondString.ToLower()<< " <<~~ lowercase " <<"\n \n";
 	cout <<"lowercase ~~>> " <<firstString.ToLower()<< " <<~~ lowercase " <<"\n";
@@ -35,7 +42,12 @@ int main()
 	cout << "\n";
 	
 	cout << "UPPERCASE ~~>> " << secondString.ToUpper() << " <<~~ UPPERCASE " << "\n \n";
-	cout << "UPPERCASE ~~>> " << firstString.ToUpper() << " <<~~ UPPERCASE " << "\n";
+	cout << "UPPERCASE ~~>> " << firstString.ToUpper() << " <<~~ UPPERCASE " << "\n \n";
+
+
+	cout << "Append ~~>> " << firstString.Append(secondString) << " <<~~ Append" << "\n";
+
+	cout << "Prepend ~~>> " << secondString.Prepend(firstString) << " <<~~ Prepend" << "\n \n";
 	
 	
 	cout << "[=============================================================] \n";

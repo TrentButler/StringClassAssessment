@@ -53,7 +53,7 @@ bool MyString::Compare(MyString a)
 	{
 		if (t_data[i] == 0 && a.t_data[i] == 0) // 'If' statement comparing both arrays, (if ex1 and ex2 are equal).
 		{
-			cout << "The strings are identical... \n \n";
+		
 			return 0;
 
 			break;
@@ -61,8 +61,8 @@ bool MyString::Compare(MyString a)
 
 		if (t_data[i] > a.t_data[i]) // 'If' statement comparing both arrays, (if ex2 is greater than ex1).
 		{
-			cout << "String " << a.t_data << " is first... \n \n";
-			return 1;
+			
+			return -1;
 
 			break;
 
@@ -70,8 +70,8 @@ bool MyString::Compare(MyString a)
 
 		if (t_data[i] < a.t_data[i]) // 'If' statement comparing both arrays, (if ex2 is less than ex1)
 		{
-			cout << "String " << t_data << " is first... \n \n";
-			return -1;
+			
+			return 1;
 
 			break;
 		}

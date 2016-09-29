@@ -1,7 +1,4 @@
-﻿  String Class.cpp
-c:\users\trent.butler\documents\github\stringclassassessment\string class.cpp(74): warning C4305: 'return': truncation from 'int' to 'bool'
-  Main.cpp
-  Generating Code...
-c:\users\trent.butler\documents\github\stringclassassessment\string class.cpp(193): warning C4172: returning address of local variable or temporary: Test1
+﻿  Main.cpp
+cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
   String Class.vcxproj -> C:\Users\trent.butler\Documents\GitHub\StringClassAssessment\Debug\String Class.exe
   String Class.vcxproj -> C:\Users\trent.butler\Documents\GitHub\StringClassAssessment\Debug\String Class.pdb (Partial PDB)
